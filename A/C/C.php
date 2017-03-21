@@ -11,5 +11,8 @@ namespace A\C;
 
 class C
 {
-
+    public function __construct()
+    {
+        echo 'Class C with namespace A\C.' . PHP_EOL;
+    }
 }
